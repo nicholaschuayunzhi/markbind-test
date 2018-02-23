@@ -1,0 +1,18 @@
+{
+  "baseUrl": "/markbind-test",
+  "pages": [
+    {
+      "src": "index.md",
+      "title": "Hello World"
+    }
+  ],
+  "ignore": [
+    "_site/*",
+    "*.json",
+    "*.md"
+  ],
+  "deploy": {
+    "message": "Site Update.",
+    "branch": "gh-pages"
+  }
+}
