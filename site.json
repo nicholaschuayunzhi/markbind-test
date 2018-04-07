@@ -9,7 +9,8 @@
   "ignore": [
     "_site/*",
     "*.json",
-    "*.md"
+    "*.md",
+    "node_modules/*"
   ],
   "deploy": {
     "message": "Site Update.",
