@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nicholaschuayunzhi/markbind-test#readme",
   "dependencies": {
-    "markbind": "^1.6.0"
+    "markbind-cli": "^1.6.3"
   }
 }
