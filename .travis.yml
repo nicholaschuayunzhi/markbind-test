@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - '8'
 install:
-  - npm i -g markbind-cli
+  - npm i -g git://github.com/Xenonym/markbind.git#deploy-travis
 script: markbind build && markbind deploy --travis
 branches:
   only:
