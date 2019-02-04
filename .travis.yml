@@ -3,7 +3,7 @@ node_js:
   - '8'
 install:
   - npm i -g git://github.com/Xenonym/markbind.git#deploy-travis
-script: markbind build && markbind deploy --travis
+script: markbind build && markbind deploy --travis TOKEN
 branches:
   only:
   - master
